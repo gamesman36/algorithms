@@ -29,7 +29,7 @@ void SelectionSort(std::vector<int> arr)
         arr[pos] = temp;
     }
 
-    for (int i = 0; i < s(); i++)
+    for (int i = 0; i < s; i++)
     {
         std::cout << arr[i] << "\n";
     }
@@ -38,6 +38,5 @@ void SelectionSort(std::vector<int> arr)
 int main()
 {
     std::vector<int> nums = {3, 17, 5, 10, 1, 9, 11};
-    int s = nums.size();
     SelectionSort(nums);
 }
