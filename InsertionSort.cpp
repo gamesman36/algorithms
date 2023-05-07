@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <iterator>
 
 void InsertionSort(std::vector<int> A)
 {
